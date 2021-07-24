@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- header starts here -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/80833262c1.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+    <link href="https://fonts.googleapis.com/css?family=Ariel&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <title>Weather Dashboard</title>
+</head>
+<!-- body start here -->
+<body>
+<!-- header -->
+<!-- logo/title -->
+    <header class="header">
+        <h1>Weather Dashboard</h1>
+    </header>
+<!-- container with elements -->
+    <div class="container">
+        <!-- search bar -->
+        <div class="search">
+            <div class="row">
+                <h1>Search for a City:</h1>
+            </div>
+            <div class="row">
+                <input type="text" class="searchInput" placeholder="Seattle">
+                <!-- search submit button -->
+                <button type="submit" class="searchBtn">
+                <i class="fas fa-search"></i>
+                </button>
+            </div>
+            <!-- hisotical items  -->
+            <div class="historyItems"></div>
+        </div>
+        <!-- forcast -->
+        <div class="col-two-container">
+            <div class="forecast">
+                <div class="row">
+                    <h1 class="cityName">City Name</h1>
+                    <h1 class="currentDate"></h1>
+                    <img class="weatherIcon"></img>
+                </div>
+                <div class="row">
+                    <p class="temp">Temperature:</p>
+                </div>
+                <div class="row">
+                    <p class="humidity">Humidity:</p>
+                </div>
+                <div class="row">
+                    <p class="windSpeed">Wind Speed:</p>
+                </div>
+                <div class="row">
+                    <p class="uvIndex">UV Index:</p>
+                </div>
+            </div>
+            <!-- five day forcat -->
+            <div class="five-day-container">
+                <h1>5-Day Forecast:</h1>
+                <div class="card-row">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<!-- link to javascript for weather stats -->
+<script src="assets/js/weather.js"></script>
+</html>
