@@ -7,7 +7,7 @@ To use the application, please enter a valid city into the search bar located at
 
 ## Contents
 1. [Deployed Page](#deployed-page)
-2. [Refactor Comments](#refactor-comments)
+2. [Project Comments](#refactor-comments)
 3. [Contributions](#contributions)
 
 ## Deployed Page
