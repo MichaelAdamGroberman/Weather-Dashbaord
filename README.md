@@ -13,9 +13,9 @@ To use the application, please enter a valid city into the search bar located at
 
 ## Deployed Page
 
-![Deployed Page Screenshot](./assets/images/deployed-screenshot.png)
+![Deployed Page Screenshot](./assets/images/weatherDash.png)
 
-[Deployed GitPage](https://github.com/MichaelAdamGroberman/Weather-Dashbaord/settings/pages)
+[Deployed GitPage](https://michaeladamgroberman.github.io/Weather-Dashbaord/)
 
 ## Refactor Comments
 * Added comments to index.html and style.css to explain refactoring.
