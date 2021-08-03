@@ -5,21 +5,27 @@ Our assignment was to create a weather dashboard that leverage a 3rd party serve
 To use the application, please enter a valid city into the search bar located at the top-left of the page. Once you'r desired city is found, please press the yellow magnifiying glass (search button).
 
 
+
 ## Contents
 1. [Deployed Page](#deployed-page)
-2. [Project Comments](#refactor-comments)
+2. [Refactor Comments](#refactor-comments)
 3. [Contributions](#contributions)
 
 ## Deployed Page
 
-![Deployed Page Screenshot](./assets/images/screenshot.png)
+![Deployed Page Screenshot](./assets/images/weatherDash.png)
 
 [Deployed GitPage](https://michaeladamgroberman.github.io/Weather-Dashbaord/)
 
-## Project Comments
-* Really wanted to, but had to need to use flex.
-* Very easy considering we are leveraging api.
+## Refactor Comments
+* Added comments to index.html and style.css to explain refactoring.
+* Refactored select div elements to semantic HTML elements.
+* Re-identified style selectors.
+* Consolidated repetitive styles.
+* Removed unnecessary class attributes.
+* Added web page title.
+* Fixed broken nav links.
+* Added alt attributes to images for accessibility and SEO.
 
 ## Contributions
-* Project completed by Michael Groberman
-* API Documentation and Access provided by the openweathermap.org
+* Code refactoring completed by Michael Groberman
